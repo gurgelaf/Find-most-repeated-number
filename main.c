@@ -6,7 +6,7 @@
 #define size 100
 #define rsize size-1
 
-char buscarmaisrepetido (char* x) {
+char findmostrepeated (char* x) {
   char i, *aux = calloc (size,1), max = 0, res;
 
   for (i = 0; i < size; i++) {
@@ -30,7 +30,7 @@ int main(void) {
   }
 
   //print the most repeated number:
-  printf("\n\n%i\n", buscarmaisrepetido(x));
+  printf("\n\n%i\n", findmostrepeated(x));
   
   return 0;
 }
