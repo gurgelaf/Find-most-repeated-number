@@ -1,2 +1,3 @@
 # Find-most-repeated-number
-Find the most repeated number.
+Time complexity: O(n);
+Space complexity: O(n);
